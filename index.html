@@ -21,12 +21,12 @@
         </p>
         <p style="font-size: 2vw; padding-bottom: 8vh">
           Our team will collaborate to redesign the dashboard for
-          <span style="color: #f26157">Allara Health</span> a virtual care
+          <span style="color: #f26157">Allara Health:</span> a virtual care
           platform specializing
           <span style="color: #f26157">
-            in women's hormonal and metabolic health</span
+            in women's hormonal and metabolic health,</span
           >
-          particularly conditions like<span style="color: #f26157">
+          particularly, conditions like<span style="color: #f26157">
             polycystic ovary syndrome (PCOS)</span
           >
         </p>
@@ -36,10 +36,10 @@
       </div>
       <div class="subtitle1 hidden">
         <div style="font-weight: 600; color: #cb6376; margin-bottom: 8vh">
-          The Asks
+          The Current Dashboard
         </div>
         <div>
-          <img class="imgContainer hidden" src="before.png" />
+          <img class="imgContainer hidden" src="pics/Allara_Existing_Dashboard.png" />
           <table>
             <tr style="padding-bottom: 8vh">
               <th style="font-size: 1vw">Section</th>
@@ -220,7 +220,7 @@
           "
         >
           Simone's Sketches
-        </div>
+      </div>
  
         <img
           class="imgContainer hidden"
@@ -234,19 +234,16 @@
         >
           Based on the work of our team members, we all agreed on the modular design of the re-designed page, 
           as well as on adding multiple pages for key items like To Dos, Appointments, etc.
-          <br><br>
-          The next step is to create a set of wireframes based on the sketches above. 
-
         </div>
 
       <div
         class="hidden"
         style="
-          font-size: 1.5vw;
+          font-size: 2vw;
           padding-right: 22vw;
           margin-top: 2vh;
-          font-weight: bold;
-          color: #f26157;
+          font-weight: 600; 
+          color: #cb6376;
         "
       >
         Wireframes
@@ -255,22 +252,32 @@
         class="hidden"
         style="font-size: 1.5vw; padding-right: 22vw; margin-top: 2vh"
       >
-        - The minimalistic design lacks contrast, color differentiation, and
-        size variations, making it visually unmemorable.
+      The next step is to create a set of wireframes based on the sketches above. 
       </div>
+ 
+    <img
+      class="imgContainer hidden"
+      src="pics/Wireframes.png"
+      style="max-width: 100%; max-height: auto; width: auto; height: auto"
+    />  
+  </div>
+
       <div
         class="hidden"
         style="font-size: 1.5vw; padding-right: 22vw; margin-top: 2vh"
       >
-        - There is no clear visual hierarchy, making it harder to quickly
-        identify important elements.
-      </div>
-      <div
-        class="hidden"
-        style="font-size: 1.5vw; padding-right: 22vw; margin-top: 2vh"
-      >
-        - Buttons and icons do not have distinct styling to indicate they are
-        clickable, which may cause confusion.
+        - Dashboard separated into three main blocks - appointments, to-dos, and lab results.
+        <br></br>
+        - Timeline moved to the bottom with expandable buttons for new patients.
+        <br></br>
+        - Filter for upcoming and past appointments, join button closer to appointment time, directions for in-person meetings.
+        <br></br>
+        - More information for past appointments, including notes and recommendations.
+        <br></br>
+        - Easy access to different sections.
+        <br></br>
+        - Added progress bar and reward system to enhance user engagement and retention.
+        <br></br>
       </div>
 
       <div
@@ -398,13 +405,12 @@
         font-size: 2rem;
       "
     >
-      Mockups
+      Final Prototype
     </div>
     <p style="font-size: 2vw; padding-bottom: 8vh" class="hidden">
-      These mockups represent the final goal for the redesigned sites visual
-      aspects as well as its responsivity between screens. I created a stronger
-      information hierarchy and implemented accessible solutions such as
-      increased text size and state changes upon hover.
+      After receiving a lot of positive feedback as well as pointers to work on,
+       we felt excited to implement our ideas in Figma. Together, we developed 
+       an interactive Figma prototype to convey our vision for Allara’s patients.
     </p>
     <div
       class="hidden"
@@ -415,19 +421,22 @@
         color: #f26157;
       "
     >
-      Desktop
+      Final Prototype Walkthrough
     </div>
     <div
-      style="
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: auto;
-      "
-    >
-      <img class="imgContainer hidden" src="mockup1.png" />
-    </div>
-    <div
+    style="
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: auto;
+    "
+  >
+    <video class="vidContainer" width="1280" height="720"  controls>
+      <source src="pics/allara-final-walkthrough-video2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div
       class="hidden"
       style="
         font-size: 2rem;
@@ -436,18 +445,32 @@
         color: #f26157;
       "
     >
-      Tablet
+      Main Features
     </div>
     <div
-      style="
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: auto;
-      "
-    >
-      <img class="imgContainer hidden" src="mockup2.png" />
-    </div>
+  class="hidden"
+  style="font-size: 1.5vw; padding-right: 22vw; margin-top: 2vh">
+    - To-Dos component is the highest priority element on the dashboard
+    <br></br>
+    - Appointments and health goals are in the middle of the screen, right after to-dos
+    <br></br>
+    - The timeline is at the bottom of the screen, with a highlight that shows the patient’s current position in Allara’s process
+    <br></br>
+    - Every component is interactable and leads to its own dedicated page
+    <br></br>
+    - If the appointment is soon in real life, the join button increases in size and changes color, prompting the user
+    <br></br>
+    - The goals and to-dos have progress bars that create a sense of completion and accomplishment as patients do tasks
+    <br></br>
+    - The appointments are neatly organized in their screen:
+    <br></br>
+      - Clear distinction between past/upcoming appointments
+      <br></br>
+      - Easy way to book a new appointment
+      <br></br>
+      - Simple navigation to get to any notes or lab results from previous appointments
+  </div>
+
     <div
       class="hidden"
       style="
